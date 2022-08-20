@@ -4,4 +4,5 @@ using UnityEngine;
 
 public interface IInputControls
 {
+    Vector3 Direction { get; }
 }
