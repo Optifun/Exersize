@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2703718677201064268}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 66.921, y: 0, z: 0}
 --- !u!20 &2703718676483445814
 Camera:
@@ -118,8 +118,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2454233865595988179}
   - {fileID: 2703718676483445809}
+  - {fileID: 2593860962784510080}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 2703718677201064269}
   _velocity: 3
---- !u!1001 &2703718677284933432
+--- !u!1001 &2627155151873075051
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -218,7 +218,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -260,50 +260,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7203087497907535390, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5566294734800872927, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
       propertyPath: m_Name
       value: KayKit Animated Character_v1.2
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2267586003923808043, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2831370008685738083, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7087471153202562173, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7588858669354262974, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956488281367287326, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9203900241904915921, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
---- !u!4 &2454233865595988179 stripped
+--- !u!4 &2593860962784510080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1463743ee09834a4c90ec66a9b6e42b0, type: 3}
-  m_PrefabInstance: {fileID: 2703718677284933432}
+  m_PrefabInstance: {fileID: 2627155151873075051}
   m_PrefabAsset: {fileID: 0}
